@@ -1,0 +1,14 @@
+POST  http://127.0.0.1:8000/
+Content-Type: application/json
+
+{
+    "name": "Pytagon","protagonist":"Python","poster":"https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pytagon.com%2F&psig=AOvVaw1phC4FYQ8mx0HaufwqQzSO&ust=1711307734553000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCKjTy56Mi4UDFQAAAAAdAAAAABAE","trailer": "https://youtu.be/LWwo5PeIF-Y?si=GhzOetNJYgi5F913","start_date":"2024-03-12T00:00:00Z","status":"coming_up","ranking":4
+}
+
+###
+POST  http://127.0.0.1:8000/krish/status
+Content-Type: application/json
+
+{
+    "status": "running"
+}
